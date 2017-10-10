@@ -1,4 +1,4 @@
-# Funcion isValidCard#
+# Funcion isValidCard
 
 1. Crear una funcion llamada isValidCard que valida los números de la tarjeta de credito ingresada: **function isValidCard ()**
 
@@ -10,14 +10,14 @@
 4. Crear una variable llamada newArray que almacene los numeros que se operaran para validar la tarjeta:
       **var  newArray=[];**
 
-     **4.1. for(i=0 ; i<arrayRevertido.length; i++) // el for recorrera el array //
-     4.2. newArray.push(parseInt(arrayRevertido[i])); //agrego uno a uno los numeros   enteros al nuevo array//
-     4.3. for(j=0 ; j<newArray.length; j++) // otro for que recorrera las ubicaciones pares //
+     4.1. **for(i=0 ; i<arrayRevertido.length; i++)** *// el for recorrera el array //*
+     4.2. **newArray.push(parseInt(arrayRevertido[i]));** *//agrego uno a uno los numeros   enteros al nuevo array//*
+     4.3. **for(j=0 ; j<newArray.length; j++)** *// otro for que recorrera las ubicaciones pares //*
      4.4. condicionar para encontrar las ubicaciones pares:
-       if (j%2!==0)
+       **if (j%2!==0)**
       4.5. crear una variable duplicar que duplique las ubicaciones pares:
-           var duplicar =  newArray[j] por 2
-      4.6 newArray[j] = parseInt(duplicar/10)+(duplicar%10); // se suman los digitos pares de mas de un digito//**
+           **var duplicar =  newArray[j] por 2**
+      4.6 **newArray[j] = parseInt(duplicar/10)+(duplicar%10);** *// se suman los digitos pares de mas de un digito//*
 
 5. retornar el nuevo array: **return newArray**;
 
@@ -37,7 +37,7 @@
       9.2. si el falso: else return ("tarjeta invalida");**
 
 10. Llamar a la funcion para validar el numero de la tarjeta:
-    sum(isValidCard());
+    **sum(isValidCard());**
 
 *Nota: en el siguiente enlace se encuentra el link del flujograma.*
 
