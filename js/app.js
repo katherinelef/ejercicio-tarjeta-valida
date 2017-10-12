@@ -29,10 +29,10 @@ function sum(newArray) { //Crear una funcion llamada sum para sumar los numeros 
    }
 
     if(sum%10===0)  //condicionar Si el resto de dividir el total entre 10 es igual a cero la tarjeta es valida//
-    return ("tarjeta valida");
+    alert ("tarjeta valida");
 
     else
-    return ("tarjeta invalida");
+    alert ("tarjeta invalida");
 }
 
 sum(isValidCard());
